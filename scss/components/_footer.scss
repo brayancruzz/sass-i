@@ -1,0 +1,12 @@
+$Main_color: #333;
+$Font: #ffffff;
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    background-color: $Main_color;
+    color: $Font;
+}

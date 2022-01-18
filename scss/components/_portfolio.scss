@@ -1,0 +1,10 @@
+.portfolio{
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 80%; 
+    display: grid;
+    gap: 30px;
+    
+    @import "cardPortfolio";
+}

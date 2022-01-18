@@ -1,0 +1,62 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  /* CUSTOME */
+  background-color: #383838;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  /* FLEX */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+header .Logo {
+  max-width: 100px;
+}
+
+header .Logo img {
+  width: 100%;
+  height: 100%;
+}
+
+header .Options ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .Options ul li {
+  padding: 15px;
+}
+
+header .Options ul li:hover {
+  background-color: #ffffff;
+  border-radius: 200px;
+  color: #383838;
+}
+
+footer {
+  background-color: black;
+}
+/*# sourceMappingURL=main.css.map */

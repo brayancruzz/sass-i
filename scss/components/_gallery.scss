@@ -1,0 +1,30 @@
+$Main_Color: #333333;
+$font_color: #fff;
+
+.Gallery{
+    width: 100%;
+    display: flex;
+
+    .Container_Gallery{
+        padding-bottom: 50px ;
+        padding-left: 100px ;
+        padding-right: 100px ;
+        margin: auto;
+        background-color: $Main_Color;
+        color: $font_color;
+
+        h2{
+            padding-bottom: 10px;
+        }
+        
+        img{
+            height: 300px;
+            width: 300px;
+            object-fit: cover;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+}

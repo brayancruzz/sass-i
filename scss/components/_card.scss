@@ -1,0 +1,33 @@
+$color_card: #333333;
+$color_font: #ffffff;
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 95%;
+    margin: auto;
+    background-color: $color_card;
+    color: $color_font;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: all 300ms;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+
+    h4{
+        margin: auto;
+    }
+
+    img{
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-top-right-radius: 20px;
+    }
+}

@@ -1,0 +1,33 @@
+$Font_Color: #000000;
+$Main_color: #9e9e9e;
+$Border_color: #00000000;
+
+.Contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .Container_Contact{   
+        padding-top: 50px ;
+        padding-bottom: 50px ;
+        padding-left: 100px ;
+        padding-right: 100px ;
+        width: 100%;
+        margin: auto;
+        background-color: $Main_color;
+        color: $Font_Color;
+        
+        h4{
+            padding-top: 10px;
+        }
+        button{
+            height: 50px;
+            width: 100px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-color: $Border_color;
+            box-shadow: none;
+        }
+    }
+
+}

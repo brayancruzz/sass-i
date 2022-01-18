@@ -1,0 +1,27 @@
+$Main_Color: #333333;
+$font_color: #fff;
+
+.About_Me{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .Container_AboutMe{   
+        padding-top: 50px ;
+        padding-bottom: 50px ;
+        padding-left: 100px ;
+        padding-right: 100px ;
+        margin: auto;
+        background-color: $Main_Color;
+        color: $font_color;
+        
+        h4{
+            padding-top: 10px;
+        }
+
+        img{
+            margin: auto;
+        }
+    }
+
+}

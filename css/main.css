@@ -1,0 +1,240 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none; }
+
+header {
+  /* CUSTOME */
+  position: fixed;
+  width: 100%;
+  background-color: #333333;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  z-index: 1;
+  /* FLEX */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; }
+  header .Logo {
+    max-width: 100px; }
+    header .Logo img {
+      width: 100%;
+      height: 100%; }
+  header .Options ul {
+    display: flex; }
+    header .Options ul li {
+      padding: 15px;
+      transition: all 300ms; }
+      header .Options ul li:hover {
+        background-color: #ffffff;
+        border-radius: 200px;
+        color: #333333;
+        transform: scale(1.1); }
+        header .Options ul li:hover a {
+          color: #333333; }
+      header .Options ul li a {
+        color: #ffffff; }
+
+.content_Index {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .content_Index .portfolio {
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 80%;
+    display: grid;
+    gap: 30px; }
+    .content_Index .portfolio .card_portfolio {
+      display: grid;
+      grid-template-columns: repeat(2, 20% 80%);
+      border-radius: 10px;
+      color: #ffffff;
+      background-color: #333;
+      height: 150x;
+      transition: all 300ms; }
+      .content_Index .portfolio .card_portfolio:hover {
+        transform: scale(1.1); }
+      .content_Index .portfolio .card_portfolio .img {
+        height: 100%; }
+        .content_Index .portfolio .card_portfolio .img img {
+          width: 100%;
+          height: 150px;
+          object-fit: cover;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          border-bottom-left-radius: 10px; }
+      .content_Index .portfolio .card_portfolio .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding: 20px;
+        margin: auto; }
+        .content_Index .portfolio .card_portfolio .description button {
+          height: 30px;
+          width: 100px;
+          background-color: #ffffff;
+          border: none;
+          border-bottom-left-radius: 10px;
+          border-top-right-radius: 10px; }
+  .content_Index .Main_Img {
+    margin-top: 50px;
+    display: flex;
+    height: 400px;
+    width: 100%; }
+    .content_Index .Main_Img img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; }
+  .content_Index .Card_Info {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .content_Index .Card_Info .Card {
+      display: flex;
+      flex-direction: column;
+      height: 200px;
+      width: 95%;
+      margin: auto;
+      background-color: #333333;
+      color: #ffffff;
+      border-bottom-left-radius: 20px;
+      border-top-right-radius: 20px;
+      transition: all 300ms; }
+      .content_Index .Card_Info .Card:hover {
+        transform: scale(1.1); }
+      .content_Index .Card_Info .Card h4 {
+        margin: auto; }
+      .content_Index .Card_Info .Card img {
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-top-right-radius: 20px; }
+  .content_Index .About_Me {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    .content_Index .About_Me .Container_AboutMe {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 100px;
+      padding-right: 100px;
+      margin: auto;
+      background-color: #333333;
+      color: #fff; }
+      .content_Index .About_Me .Container_AboutMe h4 {
+        padding-top: 10px; }
+      .content_Index .About_Me .Container_AboutMe img {
+        margin: auto; }
+  .content_Index .Contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    .content_Index .Contact .Container_Contact {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 100px;
+      padding-right: 100px;
+      width: 100%;
+      margin: auto;
+      background-color: #9e9e9e;
+      color: #000000; }
+      .content_Index .Contact .Container_Contact h4 {
+        padding-top: 10px; }
+      .content_Index .Contact .Container_Contact button {
+        height: 50px;
+        width: 100px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-color: #00000000;
+        box-shadow: none; }
+  .content_Index .Gallery {
+    width: 100%;
+    display: flex; }
+    .content_Index .Gallery .Container_Gallery {
+      padding-bottom: 50px;
+      padding-left: 100px;
+      padding-right: 100px;
+      margin: auto;
+      background-color: #333333;
+      color: #fff; }
+      .content_Index .Gallery .Container_Gallery h2 {
+        padding-bottom: 10px; }
+      .content_Index .Gallery .Container_Gallery img {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; }
+  .content_Index .contact {
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 70px;
+    color: #333;
+    width: 60%; }
+    .content_Index .contact .Email {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 20px; }
+      .content_Index .contact .Email label {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold; }
+      .content_Index .contact .Email input {
+        height: 30px;
+        width: 100%;
+        border: solid #333; }
+    .content_Index .contact .Comments {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 20px; }
+      .content_Index .contact .Comments label {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold; }
+      .content_Index .contact .Comments textarea {
+        border: solid #333; }
+    .content_Index .contact .contactButton {
+      padding-left: 20px;
+      width: 300px;
+      height: 35px; }
+      .content_Index .contact .contactButton button {
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        border: solid #333;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  background-color: #333;
+  color: #ffffff; }

@@ -1,0 +1,16 @@
+.content_Index{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    @import "portfolio";
+    @import "mainImg";
+    @import "cardInfo";
+    @import "about";
+    @import "contact";
+    @import "gallery";
+    @import "contactContainer";
+    
+}
